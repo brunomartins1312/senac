@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- Declara o tipo do documento como HTML5 -->
+<html lang="pt-br">
+<!-- Início do documento HTML. O atributo lang define o idioma principal da página. -->
+
+<head>
+  <!-- Cabeçalho do documento: onde ficam configurações e informações que não aparecem diretamente na tela -->
+
+  <meta charset="UTF-8">
+  <!-- Define o conjunto de caracteres da página como UTF-8 (suporta acentos e caracteres especiais) -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Faz a página se adaptar a diferentes tamanhos de tela (como celular, tablet e computador) -->
+
+  <title>Minha Página Simples</title>
+  <!-- Título da aba do navegador -->
+
+  <style>
+    /* Estilos CSS: definem aparência dos elementos na página */
+
+    body {
+      background-color: #f0f0f0;   /* Cor de fundo da página */
+      font-family: Arial, sans-serif;  /* Tipo de fonte usada no texto */
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;  /* Cor do título */
+    }
+
+    p {
+      color: #666;  /* Cor do parágrafo */
+    }
+
+    img {
+      width: 200px;  /* Largura da imagem */
+      border-radius: 10px;  /* Bordas arredondadas */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Corpo do documento: tudo que aparece na tela do usuário -->
+
+  <h1>Bem-vindo ao meu site!</h1>
+  <!-- Título principal da página -->
+
+  <p>Esta é uma página de exemplo feita em HTML com explicações de cada parte.</p>
+  <!-- Um parágrafo de texto -->
+
+  <img src="minha-imagem.png" alt="Imagem de exemplo">
+  <!-- Imagem na página. O 'src' indica o caminho do arquivo. O 'alt' é o texto alternativo (acessibilidade) -->
+
+  <hr>
+  <!-- Linha horizontal para separar conteúdo -->
+
+  <p><b>Obrigado por visitar!</b></p>
+  <!-- Texto em negrito dentro de um parágrafo -->
+
+</body>
+</html>

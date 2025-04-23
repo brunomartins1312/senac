@@ -1,0 +1,106 @@
+<br> para baixo </br>
+<hr> linha </hr>
+<b> negrito </b>
+<i> italico </i> 
+<u> </u>
+<small> texto pequeno </small>
+<sup> superior elevado - x2 </sup> 
+<li> fazer topicos </li>
+<center> para centralizar </centralizar>
+<img src 
+<title> para mudar o nome da barra de pesquisa do site </title> (tambem pode ser usado para mudar nomes de fundo de imagens)
+style= "text-aling:center"> = para centralizar 
+width: largura
+height: altura
+
+--------------------------------------------------
+<h1> titulo 
+<h2> ...
+<h3> ...
+<h4> ...
+<h5> ...
+<h6> ...
+
+numeros para tamanho de fonte (sera utlizado para cores tambem)
+---------------------------------------------------
+
+<p> paragrafo
+
+---------------------------------------------------
+
+Sempre para fechar e deixar o codigo apenas para aquela linha colocar uma / exemplo: </br>
+
+--------------------------------------------------
+
+<!doctype html> (versão mais nova HMTL 5)
+
+informativo de qual HTML sera utilizado.
+
+--------------------------------------------------
+
+ABRE HTML NO COMEÇO E SEMPRE FECHAR
+BODY SEMPRE QUE ABRIR FECHAR 
+
+body corpo 
+head cabeça
+
+--------------------------------------------------
+adicionar imagem
+
+<img src= "LINK DA IMAGEM" 
+
+       height  altura / width: largura
+style="height: 150px; width 100px" />
+
+----------------------------------------------------
+exemplo: 
+
+<img src= Coca-Cola_logo.svg.png 
+	style="height: 100px;
+	 title= minha imagem do google"/> (titulo ao passar o mouse na imagem)
+
+---------------------------------------------------------------------------------
+" " inserindo um texto que nao é marcação (sempre colocar aspas duplas)
+
+---------------------------------------------------------------------------------
+para fazer uma imagem de fundo são os seguintes comandos:
+
+<body style="background-image: URL('jake.jpg'); (imagem de fundo)
+	background-repeat: no repeat; (nao vou repetir a imagem)
+	background-attachment: fixed; (imagem fixada)
+	background-size 100% 100%;"> (altura por largura)
+
+--------------------------------------------------------------------------------
+comandos para fazer uma tabela (junto com o comando de tabela <table> tem que ter o <TR> "LINHA" e o <TD> colunas)
+style="background-color:pink" (para incluir cor na tabela)
+
+exemplo:
+<table>
+			<tr> 
+			<td style="background-color:pink"> TEXTO 1 </td>
+			<td style="background-color:pink"> TEXTO 1</td>
+			<td style="background-color:pink"> TEXTO 1 </td>
+			<td style="background-color:pink"> TEXTO 1</td>
+			</tr>
+			<tr> 
+			<td style="background-color:blue"> TEXTO 2 </td>
+			<td style="background-color:blue"> TEXTO 2</td>
+			<td style="background-color:blue"> TEXTO 2 </td>
+			<td style="background-color:blue"> TEXTO 2</td>
+			</tr>
+			<tr> 
+			<td style="background-color:yellow"> TEXTO 3 </td>
+			<td style="background-color:yellow"> TEXTO 3</td>
+			<td style="background-color:yellow"> TEXTO 3 </td>
+			<td style="background-color:yellow"> TEXTO 3</td>
+			</tr>
+		</table>
+---------------------------------------------------------------------------------
+
+<style= "text-aling:center"> = para centralizar 
+
+---------------------------------------------------------------------------------
+comandos de ter outro site dentro do meu proprio site
+
+<iframe style= 'width (altura) 450px width largura: 450px" 
+SCR= "site" 
